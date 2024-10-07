@@ -1,0 +1,11 @@
+.search-bar{
+    margin:auto;
+    width: 50%;
+}
+
+.search-bar input{
+    width: 50vw;
+    border-style: solid;
+    border-color: black;
+    border-radius: 500px;
+}

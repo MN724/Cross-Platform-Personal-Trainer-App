@@ -1,0 +1,30 @@
+{
+  "name": "map_server",
+  "version": "1.0.0",
+  "description": "Server for obtaining coordinates and teams for the NBA map",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chesterrc/NBA_map.git"
+  },
+  "author": "Chester Corpuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chesterrc/NBA_map/issues"
+  },
+  "homepage": "https://github.com/chesterrc/NBA_map#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

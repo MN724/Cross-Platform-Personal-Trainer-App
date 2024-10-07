@@ -1,0 +1,6 @@
+/*
+Used to fill page with map
+*/
+.leaflet-container{
+    height: 1000px;
+}

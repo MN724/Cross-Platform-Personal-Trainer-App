@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/*
+Used to fill page with map
+*/
+.leaflet-container{
+  height: 1000px;
+}
+
+
+
+.search-bar{
+  margin:auto;
+  width: 50%;
+}
+
+.search-bar input{
+  width: 50vw;
+  border-style: solid;
+  border-color: black;
+  border-radius: 500px;
+}
+
+
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.nav-bar li {
+  float: left;
+}
+ul.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.nav-bar li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+ul.nav-bar li.right-nav {
+  float: right;
+}
+
+
+
+ul.team-list {
+  text-align: center;
+  width: 50%;
+  background-color: #eee;
+}
+ul.team-list li:hover {
+  background-color: #555;
+}
+ul.team-list li.active {
+  background-color: #555;
+}
+
+
+
+.pf-v5-c-dual-list-selector {
+  width: 80%;
+  text-align: center;
+  align-content: center;
+  column-gap: 10px;
+  margin: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.pf-v5-c-dual-list-selector__pane {
+  border: black solid;
+  overflow: hidden;
+}
+.pf-v5-c-dual-list-selector__controls {
+  border: black solid;
+}
+.pf-v5-c-dual-list-selector__header {
+  border: black solid;
+}
+.pf-v5-c-dual-list-selector__status {
+  border: black solid;
+}
+div.pf-v5-c-dual-list-selector__menu {
+  border: black solid;
+}
+
+
+
+h1.home-header {
+  text-align: center;
+  margin: 10%;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h1, h2{
+  text-align: center;
+  margin-top: 0;
+}
+
+.fc {
+  width: 80%;
+  margin: 2% auto;
+}
